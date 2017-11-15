@@ -21,7 +21,7 @@ public class login extends AppCompatActivity {
         final EditText user = (EditText)findViewById(R.id.login_userinput);
         final EditText pw = (EditText)findViewById(R.id.login_password);
 
-            final SharedPreferences sharedPref = getSharedPreferences("My Data", Context.MODE_PRIVATE);
+            final SharedPreferences sharedPref = getSharedPreferences("My Data", Context.MODE_PRIVATE);//indi ya ka love
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
